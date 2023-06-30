@@ -1,0 +1,30 @@
+{
+  "name": "pkg-optimizer",
+  "version": "1.0.0",
+  "description": "A package optimization tool.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuttim/pkg-optimizer.git"
+  },
+  "bin": {
+    "pkg-optimizer": "./bin/pkg-optimizer.js"
+  },
+  "author": "Mikk Küttim <kuttim.mikk@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/kuttim/pkg-optimizer/issues"
+  },
+  "homepage": "https://github.com/kuttim/pkg-optimizer#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/kuttim"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
